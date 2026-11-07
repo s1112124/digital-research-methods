@@ -12,7 +12,7 @@ Use this checklist **after** the tutorials have been taught or otherwise evaluat
 - [ ] Check usability and accessibility of instructions, exercises and Colab links.
 - [ ] Review all files **and relevant Git history** for protected or identifying material. Do not publish any restricted social-media data.
 - [ ] Confirm any third-party assets, excerpts and software dependencies are licensed appropriately.
-- [ ] Recheck the [MIT code licence](../LICENSE) and [CC BY 4.0 teaching-material licence](../LICENSE-CONTENT.md) against the final content.
+- [ ] Decide whether to grant specific reuse permissions for the stable version. Do not add or change an open licence without the author's explicit approval.
 - [ ] Confirm [CITATION.cff](../CITATION.cff) contains the correct title, author, ORCID and eventual version metadata.
 - [ ] Write accurate change notes in [CHANGELOG.md](../CHANGELOG.md).
 
@@ -20,7 +20,7 @@ Use this checklist **after** the tutorials have been taught or otherwise evaluat
 
 1. In GitHub, open **Releases → Draft a new release**.
 2. Select the reviewed commit on `main`, create an appropriate tag (for example, `v1.0.0`), and include the release notes. Do not tag an unreviewed state.
-3. Check the release's source archive contains only intended public assets, then publish it.
+3. Check that the release archive contains only intended public assets and that intellectual-property permissions are correctly stated, then publish it.
 4. Update `CITATION.cff` to reflect the *actual* tagged version and release date; if doing this after creating the tag, record the citation metadata on the next commit or make it part of the tag preparation.
 
 GitHub guidance: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository
