@@ -2,7 +2,7 @@
 
 **Audience:** Humanities and social science researchers who want a practical introduction to transforming structured records into a simple, interpretable network.
 
-**Status:** Draft, standalone teaching example. The synthetic dataset and script have been used to demonstrate the workflow; **Gephi compatibility and learner-facing instructions still require independent classroom testing**. 
+**Sample data:** All records and account names are fictional and provided solely for this exercise.
 
 ## Learning outcomes
 
@@ -53,14 +53,16 @@ python tests/check_outputs.py
 5. **Test an assumption.** Modify a fictional record and regenerate the outputs. Explain what changed and why.
 6. **Interpret cautiously.** Does a higher mention count establish political or social influence? What additional evidence might be needed?
 
-## Source and ethics
+## Data source and scope
 
-Every actor and record in this dataset is invented for teaching. It does not depend on live APIs and contains no real social-media user information. The activity is **not** a demonstration of current API-based data acquisition. For real datasets, consider data licensing, platform restrictions, sampling, missingness, privacy and potential participant exposure.
+The exercise begins with a supplied, synthetic CSV file rather than retrieving data through a live API. When applying similar methods to independent research, consider platform terms, sampling, missingness, data protection and the interpretation of account relationships.
 
 ## Technical and educational limitations
 
-The edge list models **mentions**, not friendships, follows or retweets. It uses one edge for each observed author–mentioned-account relationship with `Weight` equal to the number of observations. The small dataset cannot support substantive claims about social or political networks. The exercise has not been independently validated in a formal teaching session.
+The edge list models **mentions**, not friendships, follows or retweets. It uses one edge for each observed author–mentioned-account relationship with `Weight` equal to the number of observations. The small dataset cannot support substantive claims about social or political networks. For classroom use, check the Gephi import steps against the installed Gephi version.
 
-The material was prepared with AI assistance for Dr Eva Ferron's review and adaptation. It is **not peer reviewed**, and no institutional affiliation or endorsement is implied.
+## Citation and reuse
+
+If you use or adapt this tutorial, please cite [Digital Research Methods](../../README.md#how-to-cite). The Python code is available under the [MIT Licence](../../LICENSE); the written instructions and synthetic dataset are available under [CC BY 4.0](../../LICENSE-CONTENT.md).
 
 [Back to the research methods portfolio](../../README.md)
