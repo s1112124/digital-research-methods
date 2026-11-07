@@ -1,0 +1,13 @@
+post_id,author,mentioned_account,created_at,likes,reposts
+1,researcher_a,researcher_b,2026-01-12T10:30:00,6,2
+2,researcher_b,researcher_c,2026-01-12T11:15:00,3,1
+3,researcher_a,researcher_c,2026-01-12T13:10:00,8,4
+4,researcher_c,researcher_a,2026-01-13T09:20:00,1,0
+5,researcher_d,researcher_a,2026-01-13T13:30:00,2,1
+6,researcher_a,researcher_b,2026-01-13T15:45:00,10,4
+7,researcher_b,researcher_d,2026-01-14T09:10:00,0,0
+8,researcher_c,researcher_d,2026-01-14T11:00:00,4,2
+9,researcher_d,researcher_c,2026-01-14T11:20:00,3,1
+10,researcher_b,researcher_a,2026-01-15T08:00:00,7,3
+11,researcher_c,researcher_a,2026-01-15T12:40:00,2,1
+12,researcher_d,researcher_b,2026-01-15T16:50:00,5,2
