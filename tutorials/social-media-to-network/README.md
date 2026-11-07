@@ -63,6 +63,6 @@ The edge list models **mentions**, not friendships, follows or retweets. It uses
 
 ## Citation and reuse
 
-If you use or adapt this tutorial, please cite [Digital Research Methods](../../README.md#how-to-cite). The Python code is available under the [MIT Licence](../../LICENSE); the written instructions and synthetic dataset are available under [CC BY 4.0](../../LICENSE-CONTENT.md).
+For attribution, see [How to cite](../../README.md#how-to-cite). Enquiries about reuse or adaptation should be directed to the author.
 
 [Back to the research methods portfolio](../../README.md)
