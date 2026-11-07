@@ -1,10 +1,10 @@
-# Supplementary tutorial: From API-style JSON to validated research data
+# From API-style JSON to Validated Research Data
 
-**Status:** New, separately authored teaching example developed following an audit of completed 2023 Python coursework. It is **not** an original submission, marked exercise, delivered workshop or demonstration of current live API access. All data are invented.
+**Example data:** A wholly synthetic JSON response, supplied with the tutorial. The analysis runs offline.
 
 ## Why this exercise?
 
-The earlier coursework demonstrates data retrieval, manipulation, statistical summaries and visualisation. This new exercise adds more explicit **data-quality reporting, validation, SQL integration and tests**, which make a research workflow easier for another researcher to inspect and reproduce.
+Reliable data analysis requires explicit decisions about duplicate records, invalid values and missing information. This exercise demonstrates **data-quality reporting, validation, SQL integration and automated tests** to make a research workflow easier to inspect and reproduce.
 
 ## Learning outcomes
 
@@ -36,10 +36,10 @@ The script creates `outputs/cleaned_posts.csv`, `outputs/author_summary.csv` and
 - Extend the code to validate non-numeric post identifiers, or design a test for an empty input dataset.
 - Outline how a *real* platform API would introduce authentication, pagination, rate limits, changing terms and research ethics considerations. This exercise makes **no live request**.
 
-## Responsible reuse
+## Scope and reuse
 
-**All accounts, IDs and records are fictional.** No real research participants, Twitter/X timelines, API credentials or restricted data are included.
+This exercise uses invented records to demonstrate processing of an API-style response; it does not contact an external service. If adapting the workflow to a real API, review its documentation, usage conditions and data protection requirements.
 
-The example is self-contained and was locally tested using the supplied fixture. It was drafted with AI assistance for Dr Eva Ferron's review and adaptation, and has not undergone peer review or live classroom testing. It should not be represented as evidence of past independent teaching or original coursework completion.
+Please cite the [Digital Research Methods repository](../../README.md#how-to-cite) when using or adapting this tutorial. Code is licensed under [MIT](../../LICENSE), and the explanatory material and synthetic dataset under [CC BY 4.0](../../LICENSE-CONTENT.md).
 
 [Return to the Digital Research Methods portfolio](../../README.md).
