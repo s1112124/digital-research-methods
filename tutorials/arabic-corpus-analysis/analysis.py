@@ -15,7 +15,7 @@ import unicodedata
 
 HERE = Path(__file__).resolve().parent
 DIACRITICS = re.compile(r"[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06ED]")
-ARABIC_WORD = re.compile(r"[\u0621-\u064A]+")
+ARABIC_WORD = re.compile(r"[\u0621-\u064A\u0671]+")
 ALEF_FOLD = str.maketrans({"آ": "ا", "أ": "ا", "إ": "ا", "ٱ": "ا"})
 
 
