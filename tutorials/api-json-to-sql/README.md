@@ -40,6 +40,6 @@ The script creates `outputs/cleaned_posts.csv`, `outputs/author_summary.csv` and
 
 This exercise uses invented records to demonstrate processing of an API-style response; it does not contact an external service. If adapting the workflow to a real API, review its documentation, usage conditions and data protection requirements.
 
-Please cite the [Digital Research Methods repository](../../README.md#how-to-cite) when using or adapting this tutorial. Code is licensed under [MIT](../../LICENSE), and the explanatory material and synthetic dataset under [CC BY 4.0](../../LICENSE-CONTENT.md).
+For attribution, see [How to cite](../../README.md#how-to-cite). Enquiries about reuse or adaptation should be directed to the author.
 
 [Return to the Digital Research Methods portfolio](../../README.md).
