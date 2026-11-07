@@ -2,7 +2,7 @@
 
 **Audience:** Humanities and social science researchers who want a practical introduction to transforming structured records into a simple, interpretable network.
 
-**Status:** Draft, standalone teaching example. The synthetic dataset and script have been used to demonstrate the workflow; **Gephi compatibility and learner-facing instructions still require independent classroom testing**. This has not been delivered as an EFI/CDCS course.
+**Status:** Draft, standalone teaching example. The synthetic dataset and script have been used to demonstrate the workflow; **Gephi compatibility and learner-facing instructions still require independent classroom testing**. 
 
 ## Learning outcomes
 
