@@ -1,10 +1,8 @@
 # Arabic Corpus Analysis: Frequencies, Keyness and KWIC
 
-**A new, synthetic-data teaching demonstration · Dr Eva Ferron's Digital Research Methods portfolio**
+**A practical corpus-linguistics tutorial using two synthetic Arabic-language datasets.**
 
-**Privacy:** Every sentence in the supplied CSV files was created specifically for this tutorial. **No Twitter/X data, account names, posts, archival extracts, or research participant identifiers have been copied from the doctoral research.** The private Colab notebooks informed a *methodological review* only; their protected datasets, outputs and source file paths have **not** been published.
-
-**Status:** A tested, AI-assisted draft for independent scholarly and teaching review. Not a previously delivered EFI/CDCS workshop, peer-reviewed method, or reproduction of the doctoral results.
+The accompanying Python code demonstrates word-frequency analysis, log-likelihood keyness and keyword-in-context concordancing, together with methodological decisions that shape interpretation.
 
 ## Learning outcomes
 
@@ -15,7 +13,7 @@
 5. Recognise the limitations of approximate p-values, multiple testing and small/unrepresentative datasets.
 6. Explore exact word forms in a **keyword-in-context (KWIC)** concordance.
 
-## Why this example is safe
+## Example corpora
 
 The two datasets contain **12 invented sentences each**: one set discusses digital research workshops; the other discusses historical archives and reading. These are examples of *different genres* chosen to make the mechanics easy to see, not empirical samples of the world. Do not present apparent keyword differences as scientifically established findings.
 
@@ -24,7 +22,7 @@ The two datasets contain **12 invented sentences each**: one set discusses digit
 | `data/focus.csv` | 12 | 108 |
 | `data/reference.csv` | 12 | 97 |
 
-No internet connection, API credentials, or external packages are required for the Python script.
+The Python script uses only the standard library and does not require an internet connection.
 
 ## Run locally
 
@@ -45,7 +43,7 @@ To search another **single surface word**, use `python analysis.py --query "ال
 
 ### Optional Google Colab
 
-[Open the companion notebook](colab_walkthrough.ipynb) or use the [Open in Colab link](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb). It downloads **this public repository only**, runs the synthetic script and displays example output tables. The notebook does not mount Google Drive or request access to private research files.
+[Open the companion notebook](colab_walkthrough.ipynb) or use the [Open in Colab link](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb). It runs the public tutorial code and displays example output tables.
 
 ## Tokenisation decisions
 
@@ -54,7 +52,7 @@ This is deliberately a **transparent surface-word baseline**, not a complete Ara
 - Normalises Unicode compatibility forms (NFKC), removes Arabic **diacritics** and **tatweel** (`ـ`).
 - Keeps **hamza/alef variants**, `ة` and `ى` distinct by default. Optional `--fold-alef` merges four alef spellings.
 - Extracts sequences of Arabic letters; does **not** segment `و`-, `ب`-, `ل`- prefixes or separate attached definite articles, stem words, remove stopwords or resolve spelling variants automatically.
-- Does not implement platform-specific cleaning of hashtags, mixed-script content or links. **It is not a plug-and-play pipeline for real Twitter/X datasets.**
+- Does not implement platform-specific cleaning of hashtags, mixed-script content or links. Additional preprocessing is needed when applying the method to other text genres.
 - KWIC searches **one exact normalised token** and shows context in token units. It never crosses document boundaries and is **not** a substitute for AntConc's richer concordancer or a discourse analysis.
 
 Normalisation is an analytical choice that can erase meaningful distinctions; compare alternatives before applying the method to historical or theological Arabic.
@@ -69,7 +67,7 @@ For each word, the script constructs a **2×2 table** of word/non-word occurrenc
 - **Benjamini–Hochberg q-values** are calculated over *all 158 tested word types*, but they do not resolve dependence, sampling bias, genre mismatch or sparse data. Do not treat them as proof of significance.
 - **Reference-corpus selection** and genre/register differences can dominate keyness results. Here the contrasts are purposefully designed, so **none of the numbers is evidence about real language populations**.
 
-The original research notebook included an earlier LL routine and different Arabic cleaning decisions. This tutorial reimplements the comparison with **one consistent counting pathway** and documents choices explicitly. It does not reproduce, validate or publish the original doctoral findings.
+The example uses **one consistent counting and tokenisation pathway** for frequencies, keyness and KWIC, with its analytical choices documented explicitly.
 
 ## Guided workshop activity
 
@@ -90,10 +88,10 @@ The original research notebook included an earlier LL routine and different Arab
 
 These resources informed the teaching explanation. The code and synthetic example are newly produced; this is **not** an implementation of AntConc itself.
 
-## Ethics, attribution and current limitations
+## Citation and reuse
 
-The original Saudi Twitter/X data and research notebooks remain private under the project's ethics constraints. **Do not copy protected records into this repository** or replace invented example text with real tweets. Any adapted future release would require separate permission and a documented disclosure review.
+The corpora contain entirely invented Arabic examples for teaching. The log-likelihood implementation was cross-checked against SciPy on test tables, and automated checks cover normalisation, token matching, output generation and adjusted values.
 
-This tutorial was drafted with AI assistance for Dr Eva Ferron's research-methods portfolio. Its underlying statistical calculation has been independently cross-checked against SciPy on known test tables; automated checks cover normalisation, token matching, output generation and adjusted values. It has **not** been field-tested with learners or externally peer reviewed.
+Please cite [Digital Research Methods](../../README.md#how-to-cite) when using or adapting this exercise. The code is released under the [MIT Licence](../../LICENSE); the teaching explanations and synthetic texts are available under [CC BY 4.0](../../LICENSE-CONTENT.md).
 
 [Back to the main portfolio](../../README.md).
