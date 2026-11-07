@@ -4,7 +4,7 @@
 
 An evolving collection of **practical, reproducible examples for humanities and social science researchers**, connecting questions to data preparation, analysis and interpretable outputs.
 
-**Status:** Three openly accessible, synthetic-data teaching demonstrations. These are newly written, AI-assisted drafts for adaptation and independent review, **not previously delivered CDCS/EFI courses or peer-reviewed outputs**.
+**Status:** Three openly accessible, synthetic-data teaching demonstrations.
 
 ## Published tutorials
 
