@@ -92,6 +92,6 @@ These resources informed the teaching explanation. The code and synthetic exampl
 
 The corpora contain entirely invented Arabic examples for teaching. The log-likelihood implementation was cross-checked against SciPy on test tables, and automated checks cover normalisation, token matching, output generation and adjusted values.
 
-Please cite [Digital Research Methods](../../README.md#how-to-cite) when using or adapting this exercise. The code is released under the [MIT Licence](../../LICENSE); the teaching explanations and synthetic texts are available under [CC BY 4.0](../../LICENSE-CONTENT.md).
+For attribution, see [How to cite](../../README.md#how-to-cite). Enquiries about reuse or adaptation should be directed to the author.
 
 [Back to the main portfolio](../../README.md).
