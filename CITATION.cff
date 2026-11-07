@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you refer to this educational example, please cite the repository and its version or commit."
+title: "Digital Research Methods: From Synthetic Platform Data to Social Network Analysis"
+type: software
+authors:
+  - family-names: Ferron
+    given-names: Eva
+    orcid: "https://orcid.org/0000-0002-2269-7991"
+repository-code: "https://github.com/s1112124/digital-research-methods"
+url: "https://github.com/s1112124/digital-research-methods"
+version: "0.1.0-draft"
+date-released: 2026-11-07
+abstract: "An introductory teaching example using synthetic structured data, Python, pandas, and matplotlib to export a directed mentions network for Gephi. Draft, not peer reviewed."
