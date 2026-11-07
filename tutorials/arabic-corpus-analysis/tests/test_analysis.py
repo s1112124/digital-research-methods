@@ -15,6 +15,8 @@ class ArabicCorpusTests(unittest.TestCase):
         self.assertEqual(tokenize("أثر، اثر؛ وإثر!"), ["أثر", "اثر", "وإثر"])
         self.assertEqual(tokenize("أثر، اثر؛ وإثر!", fold_alef=True), ["اثر", "اثر", "واثر"])
         self.assertEqual(tokenize("المكتبة مكتبة"), ["المكتبة", "مكتبة"])
+        self.assertEqual(tokenize("ٱسم اسم"), ["ٱسم", "اسم"])
+        self.assertEqual(tokenize("ٱسم اسم", fold_alef=True), ["اسم", "اسم"])
 
     def test_log_likelihood_against_known_value(self):
         # Independently checked using scipy.stats.chi2_contingency(..., correction=False).
