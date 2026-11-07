@@ -8,3 +8,4 @@ venv/
 .DS_Store
 tutorials/social-media-to-network/outputs/
 tutorials/arabic-corpus-analysis/outputs/
+tutorials/api-json-to-sql/outputs/
