@@ -2,46 +2,42 @@
 
 **Dr Eva Ferron** · Digital politics · Computational social science · Research methods education
 
-A collection of practical, reproducible tutorials for applying computational methods in the humanities and social sciences. Each tutorial connects a research question to data preparation, analysis and interpretation, with executable code and synthetic teaching datasets.
+Practical, reproducible tutorials for applying computational methods to questions in the humanities and social sciences. Each example provides a research-oriented task, executable code, and a synthetic teaching dataset.
 
 ## Tutorials
 
 ### [1. From Synthetic Platform Data to Social Network Analysis](tutorials/social-media-to-network/README.md)
 
-Use **Python, pandas and matplotlib** to clean structured records, analyse activity and engagement, and generate a weighted directed edge list for **Gephi**. The example begins with a prepared synthetic CSV dataset.
+Use **Python, pandas and matplotlib** to explore activity and engagement, and prepare a directed, weighted edge list for **Gephi**.
 
 ### [2. From API-style JSON to Validated Research Data](tutorials/api-json-to-sql/README.md)
 
-Validate structured JSON, document data-quality decisions, process records with **pandas**, query them with **SQLite**, and test the resulting workflow. The exercise works offline using a fictional API-style response.
+Validate structured JSON, handle missing and duplicate observations, document data-quality decisions, and combine **pandas**, **SQLite** and automated tests.
 
 ### [3. Arabic Corpus Analysis: Frequencies, Keyness and KWIC](tutorials/arabic-corpus-analysis/README.md)
 
-Compare two invented Arabic-language corpora using a transparent tokenizer, relative frequencies, **log-likelihood (G²) keyness**, adjusted effect sizes and **keyword-in-context (KWIC)** concordances. Includes a [runnable Google Colab notebook](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb).
+Compare two invented Arabic corpora using transparent tokenisation, **log-likelihood (G²) keyness**, effect sizes and **keyword-in-context (KWIC)** concordances.
 
-## How to cite
-
-If you use or adapt these resources in teaching or research, please cite:
-
-> Ferron, Eva. 2026. *Digital Research Methods: Reproducible Synthetic-Data Tutorials*. GitHub. https://github.com/s1112124/digital-research-methods.
-
-Use GitHub's **Cite this repository** option, powered by [`CITATION.cff`](CITATION.cff), for machine-readable citation details. Where possible, include the tutorial name and Git commit or tagged release so readers can identify the version you used. A version-specific DOI will be added following a reviewed release.
-
-**ORCID:** [0000-0002-2269-7991](https://orcid.org/0000-0002-2269-7991)
-
-## Licence and data
-
-- **Software code and executable notebook cells:** [MIT Licence](LICENSE).
-- **Original teaching text, notebook explanations and synthetic example datasets:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT.md).
-- All supplied teaching datasets are **synthetic**. The tutorials do not include original research participant data.
-
-You are welcome to use and adapt the materials under the relevant licence; please acknowledge the source and indicate changes.
-
-## Development and evaluation
-
-The tutorials are maintained as reusable teaching resources. Feedback from teaching and independent use can inform improvements; see the [teaching evaluation template](docs/TEACHING-EVALUATION.md), [changelog](CHANGELOG.md) and [release and DOI checklist](docs/RELEASE-CHECKLIST.md).
-
-A stable, archived release and DOI are planned **after the resources have been evaluated and reviewed**.
+[**Open the Arabic corpus-analysis workbook in Google Colab**](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb).
 
 ## Research background
 
-My research combines social network analysis with computational text analysis, including frequencies, keyness, collocations and concordances, to investigate digital platforms, political communication and authority.
+My research uses social network analysis and corpus-assisted text analysis, including frequencies, keyness, collocations and concordances, to investigate digital platforms, political communication and authority. I am interested in reproducible methods and accessible, critically informed research training.
+
+**Researcher:** Dr Eva Ferron · [ORCID: 0000-0002-2269-7991](https://orcid.org/0000-0002-2269-7991)
+
+## How to cite
+
+Ferron, Eva. 2026. *Digital Research Methods: Reproducible Synthetic-Data Tutorials*. GitHub. https://github.com/s1112124/digital-research-methods.
+
+For a version-specific reference, include the tutorial name and a Git commit or release tag. GitHub's **Cite this repository** feature uses [`CITATION.cff`](CITATION.cff).
+
+## Data and reuse
+
+All example records and texts supplied with these tutorials are **synthetic**.
+
+© 2026 Eva Ferron. The current repository does not offer a new open licence. For permission to reproduce or adapt the materials beyond any rights previously granted, contact the author.
+
+## Development
+
+See the [change history](CHANGELOG.md), [teaching-evaluation guide](docs/TEACHING-EVALUATION.md) and [future release checklist](docs/RELEASE-CHECKLIST.md). A DOI may be added when a stable, reviewed version is released.
