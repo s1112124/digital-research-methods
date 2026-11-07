@@ -2,36 +2,46 @@
 
 **Dr Eva Ferron** · Digital politics · Computational social science · Research methods education
 
-An evolving collection of **practical, reproducible examples for humanities and social science researchers**, connecting questions to data preparation, analysis and interpretable outputs.
+A collection of practical, reproducible tutorials for applying computational methods in the humanities and social sciences. Each tutorial connects a research question to data preparation, analysis and interpretation, with executable code and synthetic teaching datasets.
 
-**Status:** Three openly accessible, synthetic-data teaching demonstrations.
-
-## Published tutorials
+## Tutorials
 
 ### [1. From Synthetic Platform Data to Social Network Analysis](tutorials/social-media-to-network/README.md)
 
-A guided example using **Python, pandas and matplotlib**. Clean a fictional social-media-style export, summarise activity and engagement, and produce a directed, weighted edge list for Gephi. No real Twitter/X material or live API access.
+Use **Python, pandas and matplotlib** to clean structured records, analyse activity and engagement, and generate a weighted directed edge list for **Gephi**. The example begins with a prepared synthetic CSV dataset.
 
 ### [2. From API-style JSON to Validated Research Data](tutorials/api-json-to-sql/README.md)
 
-A separate new exercise informed by a review of **2023 Data with Python** coursework. Validate fictional JSON records, handle missingness, clean with **pandas**, query with **SQLite**, create a data-quality report and run **automated tests**. Works offline.
+Validate structured JSON, document data-quality decisions, process records with **pandas**, query them with **SQLite**, and test the resulting workflow. The exercise works offline using a fictional API-style response.
 
 ### [3. Arabic Corpus Analysis: Frequencies, Keyness and KWIC](tutorials/arabic-corpus-analysis/README.md)
 
-A standalone, **Python-standard-library-only** comparison of two deliberately invented Arabic corpora. It calculates frequencies, **log-likelihood (G²) keyness**, effect sizes, exploratory multiple-testing adjustments and token-based **KWIC concordances**. Includes [a Google Colab walkthrough](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb) and five automated tests. The method and examples are **not** an analysis of Saudi Twitter data.
+Compare two invented Arabic-language corpora using a transparent tokenizer, relative frequencies, **log-likelihood (G²) keyness**, adjusted effect sizes and **keyword-in-context (KWIC)** concordances. Includes a [runnable Google Colab notebook](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb).
 
-## Research and methods background
+## How to cite
 
-My research combines API-derived social media data, social network analysis and corpus-assisted text analysis, including **word frequencies, keyness, collocations and concordances (KWIC)**. I am particularly interested in transparent computational workflows and accessible, critically informed research-methods teaching.
+If you use or adapt these resources in teaching or research, please cite:
 
-**Researcher:** Dr Eva Ferron · [ORCID](https://orcid.org/0000-0002-2269-7991)
+> Ferron, Eva. 2026. *Digital Research Methods: Reproducible Synthetic-Data Tutorials*. GitHub. https://github.com/s1112124/digital-research-methods.
 
-## Research integrity, reuse and attribution
+Use GitHub's **Cite this repository** option, powered by [`CITATION.cff`](CITATION.cff), for machine-readable citation details. Where possible, include the tutorial name and Git commit or tagged release so readers can identify the version you used. A version-specific DOI will be added following a reviewed release.
 
-- **Every document, account and record in these three tutorials is synthetic.** No protected Twitter/X posts, account identifiers, longitudinal datasets, original research file paths or sensitive outputs are part of this repository.
-- The original assessed 2023 Colab coursework and later doctoral-research notebooks **remain private**. The new tutorials are not represented as historically completed course assessments.
-- AI assistance contributed to the tutorials. Statistical and programming checks have been performed locally, but expert review and learner testing remain appropriate before institutional teaching.
-- [CITATION.cff](CITATION.cff) records draft software citation metadata. It does not imply peer review or institutional endorsement.
-- No public reuse licence has yet been granted in the repository. Permissions for redistribution and adaptation should be clarified separately.
+**ORCID:** [0000-0002-2269-7991](https://orcid.org/0000-0002-2269-7991)
 
-The accompanying examples are about **teaching methodological procedures**, not making findings about real populations or political communication.
+## Licence and data
+
+- **Software code and executable notebook cells:** [MIT Licence](LICENSE).
+- **Original teaching text, notebook explanations and synthetic example datasets:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-CONTENT.md).
+- All supplied teaching datasets are **synthetic**. The tutorials do not include original research participant data.
+
+You are welcome to use and adapt the materials under the relevant licence; please acknowledge the source and indicate changes.
+
+## Development and evaluation
+
+The tutorials are maintained as reusable teaching resources. Feedback from teaching and independent use can inform improvements; see the [teaching evaluation template](docs/TEACHING-EVALUATION.md), [changelog](CHANGELOG.md) and [release and DOI checklist](docs/RELEASE-CHECKLIST.md).
+
+A stable, archived release and DOI are planned **after the resources have been evaluated and reviewed**.
+
+## Research background
+
+My research combines social network analysis with computational text analysis, including frequencies, keyness, collocations and concordances, to investigate digital platforms, political communication and authority.
