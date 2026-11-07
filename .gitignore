@@ -7,3 +7,4 @@ venv/
 .env.*
 .DS_Store
 tutorials/social-media-to-network/outputs/
+tutorials/arabic-corpus-analysis/outputs/
