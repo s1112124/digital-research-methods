@@ -1,13 +1,12 @@
 cff-version: 1.2.0
-message: "If referring to these synthetic research-methods tutorials, cite the repository and the relevant version or commit."
+message: "Please cite this repository when using or adapting the tutorials. Include a specific tutorial name and Git commit or tagged version where practicable."
 title: "Digital Research Methods: Reproducible Synthetic-Data Tutorials"
 type: software
 authors:
-  - family-names: Ferron
-    given-names: Eva
+  - family-names: "Ferron"
+    given-names: "Eva"
     orcid: "https://orcid.org/0000-0002-2269-7991"
 repository-code: "https://github.com/s1112124/digital-research-methods"
 url: "https://github.com/s1112124/digital-research-methods"
-version: "0.3.0-draft"
 date-released: 2026-11-07
-abstract: "Three AI-assisted synthetic-data educational drafts: network preparation, offline JSON-to-SQL data cleaning, and Arabic corpus frequencies, G2 keyness and KWIC. No protected social-media data. Not peer reviewed or formally taught."
+abstract: "Computational research methods tutorials covering social-network data preparation, JSON validation and SQL, and Arabic corpus frequency analysis, G2 keyness and KWIC concordancing with synthetic datasets."
