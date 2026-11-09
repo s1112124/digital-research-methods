@@ -1,6 +1,6 @@
 # Digital Research Methods
 
-**Dr Eva Ferron** · Digital and data-led research methods · Arabic text analysis · Research training
+**Dr Eva Ferron** · Digital and data-led research methods · Text analysis, including Arabic · Research training
 
 Practical, reproducible tutorials for applying computational methods to questions in the humanities and social sciences. Each example provides a research-oriented task, executable code, and a synthetic teaching dataset.
 
@@ -38,7 +38,7 @@ For a version-specific reference, include the tutorial name and a Git commit or 
 
 All example records and texts supplied with these tutorials are **synthetic**.
 
-© 2026 Eva Ferron. The current repository does not offer a new open licence. For permission to reproduce or adapt the materials beyond any rights previously granted, contact the author.
+The materials are openly licensed: code under the [MIT licence](LICENSE), and tutorial text, exercises and datasets under [CC BY 4.0](LICENSE-CONTENT.md). You are free to reuse and adapt them with attribution. If you use them in teaching or research, please cite the repository as shown under [How to cite](#how-to-cite).
 
 ## Teaching evaluation
 

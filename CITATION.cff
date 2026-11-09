@@ -8,4 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-2269-7991"
 repository-code: "https://github.com/s1112124/digital-research-methods"
 url: "https://github.com/s1112124/digital-research-methods"
+license:
+  - "MIT"
+  - "CC-BY-4.0"
 abstract: "Computational research methods tutorials covering social-network data preparation, JSON validation and SQL, and Arabic corpus frequency analysis, G2 keyness and KWIC concordancing with synthetic datasets."

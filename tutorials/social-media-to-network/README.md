@@ -63,6 +63,6 @@ The edge list models **mentions**, not friendships, follows or retweets. It uses
 
 ## Citation and reuse
 
-For attribution, see [How to cite](../../README.md#how-to-cite). Enquiries about reuse or adaptation should be directed to the author.
+You may reuse and adapt this tutorial with attribution: code under the [MIT licence](../../LICENSE), text and data under [CC BY 4.0](../../LICENSE-CONTENT.md). To cite it, see [How to cite](../../README.md#how-to-cite).
 
 [Back to the research methods portfolio](../../README.md)
