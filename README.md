@@ -1,6 +1,6 @@
 # Digital Research Methods
 
-**Dr Eva Ferron** · Digital and data-led research methods · Arabic text analysis · Research training
+**Dr Eva Ferron** · Digital and data-led research methods · Text analysis, including Arabic · Research training
 
 Practical, reproducible tutorials for applying computational methods to questions in the humanities and social sciences. Each example provides a research-oriented task, executable code, and a synthetic teaching dataset.
 
