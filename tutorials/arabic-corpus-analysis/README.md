@@ -43,7 +43,7 @@ To search another **single surface word**, use `python analysis.py --query "ال
 
 ### Optional Google Colab
 
-[Open the companion notebook](colab_walkthrough.ipynb) or use the [Open in Colab link](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb). It runs the public tutorial code and displays example output tables.
+[Open the companion notebook](colab_walkthrough.ipynb) or use the [Open in Colab link](https://colab.research.google.com/github/s1112124/digital-research-methods/blob/main/tutorials/arabic-corpus-analysis/colab_walkthrough.ipynb). It works through the analysis one step at a time (normalisation and tokenisation, frequency counts, a G² calculation by hand, keyness for every word and KWIC), and its outputs are saved, so you can read it on GitHub without running anything.
 
 ## Tokenisation decisions
 

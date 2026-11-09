@@ -1,8 +1,10 @@
 # Digital Research Methods
 
-**Dr Eva Ferron** · Digital politics · Computational social science · Research methods education
+**Dr Eva Ferron** · Digital and data-led research methods · Arabic text analysis · Research training
 
 Practical, reproducible tutorials for applying computational methods to questions in the humanities and social sciences. Each example provides a research-oriented task, executable code, and a synthetic teaching dataset.
+
+I designed these exercises and used generative-AI tools to help draft code and documentation.
 
 ## Tutorials
 
@@ -38,6 +40,6 @@ All example records and texts supplied with these tutorials are **synthetic**.
 
 © 2026 Eva Ferron. The current repository does not offer a new open licence. For permission to reproduce or adapt the materials beyond any rights previously granted, contact the author.
 
-## Development
+## Teaching evaluation
 
-See the [change history](CHANGELOG.md), [teaching-evaluation guide](docs/TEACHING-EVALUATION.md) and [future release checklist](docs/RELEASE-CHECKLIST.md). A DOI may be added when a stable, reviewed version is released.
+A short [teaching-evaluation template](docs/TEACHING-EVALUATION.md) records how each tutorial works in a session and what should change before it is reused.
